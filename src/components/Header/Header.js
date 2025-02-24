@@ -6,7 +6,16 @@ export default function Header({ menuItems }) {
   return (
     <Navbar bg="white" expand="lg" sticky="top" className={styles.navbar}>
     
-      <Navbar.Brand href="/"><b>Bharat</b><span className="text-primary">Stats</span> Viz</Navbar.Brand>
+    <Navbar.Brand href="/" className="d-flex align-items-center">
+    <img 
+      src="/logo196.png"
+      alt="Logo"
+      height="30"
+      width="30"
+      className="me-2 d-inline-block align-top"
+    />
+    
+      <b>Bharat</b><span className="text-primary">Stats</span> Viz</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
