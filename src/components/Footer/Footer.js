@@ -14,35 +14,7 @@ export default function Footer(props) {
         <Row>
           <Col xs={6} sm={{ span: 5, order: 1 }} lg={{ span: 3, order: 1 }}>
             <p className="Xsmall">
-              RAWGraphs is an open source project designed and developed by{' '}
-              <a
-                href="http://densitydesign.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                DensityDesign
-              </a>
-              ,{' '}
-              <a
-                href="https://calib.ro/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Calibro
-              </a>{' '}
-              and{' '}
-              <a
-                href="https://inmagik.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Inmagik
-              </a>
-              .
-              <br />© 2013-2021{' '}
-              <a href="https://raw.github.com/rawgraphs/rawgraphs-app/master/LICENSE">
-                (Apache License 2.0)
-              </a>
+              Bharatstats Viz is a no code data visualization tool built on top of RAWGraphs
             </p>
           </Col>
           <Col xs={6} sm={{ span: 5, order: 3 }} lg={{ span: 3, order: 1 }}>
@@ -57,12 +29,13 @@ export default function Footer(props) {
             xl={{ span: 2, offset: 2 }}
           >
             <p>
-              <BsFillEnvelopeFill /> hello at rawgraphs.io
+              <BsFillEnvelopeFill /> 
+            hello@bharatstats.com
             </p>
             <p>
               <FaTwitter />{' '}
               <a
-                href="https://twitter.com/rawgraphs"
+                href="https://twitter.com/bharatstats"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -80,21 +53,21 @@ export default function Footer(props) {
             <p>
               <FaGithub />{' '}
               <a
-                href="https://github.com/rawgraphs"
+                href="https://www.bharatstats.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Github
+                About
               </a>
             </p>
             <p>
               <BsBarChartFill />{' '}
               <a
-                href="https://old.rawgraphs.io"
+                href="https://data.bharatstats.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                RAWGraphs v.1
+                Datasets
               </a>
             </p>
           </Col>
