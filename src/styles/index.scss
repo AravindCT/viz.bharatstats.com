@@ -1,11 +1,12 @@
 // Variables override
 $body-bg: #f5f8fa;
 $theme-colors: (
-  'primary': #4bc06a,
-  'success': #4bc06a,
-  'warning': #e7b332,
-  'danger': #d04949,
-  'light': #d8d8d8,
+  'primary': #2563eb,
+  'success': #22c55e,
+  'warning': #facc15,
+  'danger': #ef4444,
+  'light': #f8fafc,
+  'dark': #18181b
 );
 $font-family-monospace: 'IBM Plex Mono', Menlo, Monaco, Consolas,
   'Liberation Mono', 'Courier New', monospace;
@@ -14,17 +15,17 @@ $font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
   'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
 :root {
-  --gray-bg: rgb(245 248 250);
-  --primary-lighter: #defff0;
-  --warning-lighter: #fff8c6;
-  --gray-100: #f8f8f8;
-  --gray-200: #dee1e2;
-  --gray-300: #c2c1c1;
-  --gray-400: #e4e3e3;
-  --gray-500: #a3a8ad;
-  --gray-600: #888e94;
-  --gray-700: #495057;
-  --gray-900: #181818;
+ --gray-bg: rgb(245, 248, 250);
+  --primary-lighter: #dbeafe;
+  --warning-lighter: #fef9c3;
+  --gray-100: #f8fafc;
+  --gray-200: #e2e8f0;
+  --gray-300: #cbd5e1;
+  --gray-400: #94a3b8;
+  --gray-500: #64748b;
+  --gray-600: #475569;
+  --gray-700: #334155;
+  --gray-900: #0f172a;
   --header-height: 50px;
 }
 
@@ -42,6 +43,8 @@ html {
 }
 body {
   background-color: var(--gray-bg);
+  font-family: $font-family-sans-serif;
+  color: var(--gray-700);
 }
 h1 {
   font-size: 1.8461538462rem;
