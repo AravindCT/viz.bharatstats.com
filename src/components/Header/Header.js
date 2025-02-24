@@ -15,7 +15,7 @@ export default function Header({ menuItems }) {
       className="me-2 d-inline-block align-top"
     />
     
-      <b>Bharat</b><span className="text-primary">Stats</span> Viz</Navbar.Brand>
+      <b>Bharat</b><span className="text-primary">Stats </span> Viz</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
