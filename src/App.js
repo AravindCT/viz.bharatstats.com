@@ -332,10 +332,9 @@ function App() {
           buttonClasses="btn btn-default btn-grey"
           acceptOnScroll={true}
         >
-          This website uses Google Analytics to anonymously collect browsing
-          data.{' '}
+          This website uses Google Analytics to anonymously collect browsing data.{' '}
           <a
-            href="https://rawgraphs.io/privacy/"
+           href="https://www.bharatstats/privacy/"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-2 text-body border-bottom border-dark"
