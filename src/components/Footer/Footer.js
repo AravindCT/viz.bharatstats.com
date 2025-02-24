@@ -39,7 +39,7 @@ export default function Footer(props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @rawgraphs
+                @bharatstats
               </a>
             </p>
           </Col>
