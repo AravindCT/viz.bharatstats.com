@@ -10,8 +10,8 @@ export default function Header({ menuItems }) {
     <img 
       src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design-qabRFqgDTHcpUQ8Clmq15CZU9F98Qw.png"
       alt="Logo"
-      height="30"
-      width="30"
+      height="20"
+      width="20"
       className="me-2 d-inline-block align-top"
     />
     
