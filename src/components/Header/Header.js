@@ -8,7 +8,7 @@ export default function Header({ menuItems }) {
     
     <Navbar.Brand href="/" className="d-flex align-items-center">
     <img 
-      src="/logo196.png"
+      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design-qabRFqgDTHcpUQ8Clmq15CZU9F98Qw.png"
       alt="Logo"
       height="30"
       width="30"
