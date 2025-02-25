@@ -46,7 +46,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject", 
-    "prepare": "npm run build"
+    "prepare": "yarn run build"
   },
   "eslintConfig": {
     "extends": "react-app"
